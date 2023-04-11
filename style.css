@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    color: #3a889b;
+}
+
+#main-container {
+    margin: 0;
+    height: 550px;
+    width: 550px;
+    background-color: #1F2937;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+    margin-bottom: 65px;
+    padding-top: 115px;
+    padding-left: 52px;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    height: 80px;
+    width: 354px;
+    font-family: 'Karla';
+    font-size: 43px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 52px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+
+#couleur-verte {
+    color: #4ADF86;
+}
+
+#Generator {
+    margin: 0;
+    margin-bottom: 40px;
+    height: 42px;
+    width: 191px;
+    gap: 12px;
+    padding: 9px, 17px, 9px, 15px;
+    border-radius: 6px;
+    border: none;
+    background-color: #10B981;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;  
+}
+
+#Generator:active {
+    background-color: #10b9815d;
+}
+
+#line {
+    width: 515px;
+    height: 0px;
+    border: 1px solid #2F3E53;
+    margin: 0;
+    margin-bottom: 35px;
+}
+
+.mdp-btn {
+    width: 212px;
+    height: 40px;
+    background-color: #273549;
+    border: none;
+    border-radius: 6px;
+}
+
+#mdp1 {
+    margin-right: 94px;
+    color: #10B981;
+    font-size: medium;
+}
+
+#mdp2 {
+    color: #10B981;
+    font-size: medium;
+}
+
+
+#mdp1:active {
+    background-color: #27354985;
+}
+
+#mdp2:active {
+    background-color: #27354985;
+}
+
+.text-copied1 {
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.text-copied2 {
+    color: #1F2937;
+    font-weight: bolder;
+
+}

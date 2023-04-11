@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="padlock.png" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
+</head>
+<body>
+    <div id="main-container">
+        <h1>Generate a <span id="couleur-verte">random password</span></h1>
+        <p>Never use an insecure password again.</p>
+        <button id="Generator">Generate passwords</button>
+        <label id="label" for="length">Choose the length of your passwords:   </label>
+        <input id="length-input" type="number" min="8" max="18" value="8">
+        <div id="line"></div>
+        <button class="mdp-btn" id="mdp1"></button>
+        <button class="mdp-btn" id="mdp2"></button>    
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
